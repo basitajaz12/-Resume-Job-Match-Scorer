@@ -1,2 +1,17 @@
-# -Resume-Job-Match-Scorer
-AI-based tool that analyzes resumes against job descriptions to calculate a match score. It evaluates skills, experience, and keywords to identify alignment, helping recruiters and candidates quickly assess job fit and improve hiring efficiency.
+# Resume–Job Match Scorer
+
+A simple NLP app that compares a resume against a job description and returns a match score using TF‑IDF + cosine similarity. It also highlights the top overlapping keywords.
+
+## ✅ Features
+- Match score (%)
+- Top overlapping keywords
+- Clean Streamlit UI
+
+## ▶️ Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+Built with Python, scikit-learn, and Streamlit.
